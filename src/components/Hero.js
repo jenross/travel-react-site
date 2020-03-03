@@ -11,8 +11,8 @@ const Hero = () => {
 
         <div className="header__text-box">
           <h1 className="heading-primary">
-            <span className="heading-primary--main">Outdoors</span>
-            <span className="heading-primary--sub">is where life happens</span>
+            <span className="heading-primary--main">Adventure</span>
+            <span className="heading-primary--sub">of a lifetime</span>
           </h1>
 
           <a href="#section-tours" className="btn btn--white btn--animated">
