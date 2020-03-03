@@ -14,7 +14,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "watch:sass": "node-sass sass/main.scss starter/css/style.css -w",
+    "compile:sass": "node-sass src/sass/main.scss src/css/style.comp.css",
+    "concat:css": "concat -o src/css/style.concat.css src/css/icon-font.css src/css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/css/style.concat.css -o src/css/style.prefix.css",
+    "compress:css": "node-sass src/css/style.prefix.css src/css/style.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass concat:css prefix:css"
   },
   "eslintConfig": {
     "extends": "react-app"

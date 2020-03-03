@@ -15,7 +15,7 @@
       rgba($color-primary-light, 0.8),
       rgba($color-primary-dark, 0.8)
     ),
-    url(../../images/nat-4.jpg);
+    url(../images/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem;
@@ -68,7 +68,7 @@
       rgba($color-white, 0.9) 50%,
       transparent 50%
     ),
-    url(../../images/nat-10.jpg);
+    url(../images/nat-10.jpg);
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
@@ -80,7 +80,7 @@
         rgba($color-white, 0.9) 65%,
         transparent 65%
       ),
-      url(../../images/nat-10.jpg);
+      url(../images/nat-10.jpg);
     background-size: cover;
   }
 
@@ -90,7 +90,7 @@
         rgba($color-white, 0.9) 0%,
         rgba($color-white, 0.9) 100%
       ),
-      url(../../images/nat-10.jpg);
+      url(../images/nat-10.jpg);
   }
 
   &__form {
