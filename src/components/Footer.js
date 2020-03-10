@@ -62,9 +62,7 @@ const Footer = () => {
             >
               Jennifer Ross
             </a>{" "}
-            &copy; 2020
-            <p>
-              Design by{" "}
+            &amp; Designed by{" "}
               <a
                 href="https://www.udemy.com/user/jonasschmedtmann/"
                 target="_blank"
@@ -72,7 +70,6 @@ const Footer = () => {
               >
                 Jonas Schmedtmann
               </a>{" "}
-            </p>
           </p>
         </div>
       </div>

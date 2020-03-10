@@ -62,7 +62,7 @@ const Stories = () => {
       </div>
 
       <div className="u-center-text u-margin-top-huge">
-        <a href="#" class="btn-text">
+        <a href="#" className="btn-text">
           Read all stories &rarr;
         </a>
       </div>
