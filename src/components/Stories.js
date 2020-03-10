@@ -16,7 +16,7 @@ const Stories = () => {
       </div>
 
       <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">We make people genuinely happy</h2>
+        <h2 className="heading-secondary">An experience you'll never forget</h2>
       </div>
 
       <div className="row">
@@ -48,7 +48,7 @@ const Stories = () => {
           </figure>
           <div className="story__text">
             <h3 className="heading-tertiary u-margin-bottom-small">
-              WOW! My life is completely different now
+              WOW! This getaway was exactly what I needed
             </h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,

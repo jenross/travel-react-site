@@ -55,17 +55,24 @@ const Footer = () => {
         <div className="col-1-of-2">
           <p className="footer__copyright">
             Built by{" "}
-            <a href="#" className="footer__link">
-              Jonas Schmedtmann
+            <a
+              href="https://jenniferross.tech/"
+              target="_blank"
+              className="footer__link"
+            >
+              Jennifer Ross
             </a>{" "}
-            for his online course{" "}
-            <a href="#" className="footer__link">
-              Advanced CSS and Sass
-            </a>
-            . Copyright &copy; by Jonas Schmedtmann. You are 100% allowed to use
-            this webpage for both personal and commercial use, but NOT to claim
-            it as your own design. A credit to the original author, Jonas
-            Schmedtmann, is of course highly appreciated!
+            &copy; 2020
+            <p>
+              Design by{" "}
+              <a
+                href="https://www.udemy.com/user/jonasschmedtmann/"
+                target="_blank"
+                className="footer__link"
+              >
+                Jonas Schmedtmann
+              </a>{" "}
+            </p>
           </p>
         </div>
       </div>

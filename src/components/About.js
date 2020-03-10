@@ -11,7 +11,7 @@ const About = () => {
     <section className="section-about">
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
-          Exciting tours for adventurous people
+          Breathtaking hiking tours across the globe 
         </h2>
       </div>
 
@@ -27,7 +27,7 @@ const About = () => {
           </p>
 
           <h3 className="heading-tertiary u-margin-bottom-small">
-            Live adventures like you never have before
+            Get away for a while 
           </h3>
           <p className="paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
