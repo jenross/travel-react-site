@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "./Button";
 import Heading from "./Heading";
 
 const Book = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
     <section className="section-book">
       <div className="row">
         <div className="book">
           <div className="book__form">
-            <form action="#" className="form">
+            <form action="#" className="form" onSubmit={handleSubmit}>
               <div className="u-margin-bottom-medium">
                 <Heading text="Start booking now" />
               </div>
@@ -21,7 +27,12 @@ const Book = () => {
                   id="name"
                   required
                 />
-                <label htmlFor="name" className="form__label">
+                <label
+                  htmlFor="name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  className="form__label"
+                >
                   Full name
                 </label>
               </div>
@@ -34,7 +45,12 @@ const Book = () => {
                   id="email"
                   required
                 />
-                <label htmlFor="email" className="form__label">
+                <label
+                  htmlFor="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="form__label"
+                >
                   Email address
                 </label>
               </div>
