@@ -3,6 +3,7 @@ import bgvideomp4 from "./../images/video.mp4";
 import bgvideowebm from "./../images/video.webm";
 import nat8 from "./../images/nat-8.jpg";
 import nat9 from "./../images/nat-9.jpg";
+import Heading from "./Heading";
 
 const Stories = () => {
   return (
@@ -16,7 +17,7 @@ const Stories = () => {
       </div>
 
       <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">An experience you'll never forget</h2>
+        <Heading text="An experience you'll never forget" />
       </div>
 
       <div className="row">

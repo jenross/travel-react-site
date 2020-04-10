@@ -5,14 +5,13 @@ import nat3lg from "./../images/nat-3-large.jpg";
 import nat1 from "./../images/nat-1.jpg";
 import nat2 from "./../images/nat-2.jpg";
 import nat3 from "./../images/nat-3.jpg";
+import Heading from "./Heading";
 
 const About = () => {
   return (
     <section className="section-about">
       <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">
-          Breathtaking hiking tours across the globe 
-        </h2>
+        <Heading text="Breathtaking hiking tours across the globe" />
       </div>
 
       <div className="row">
@@ -27,7 +26,7 @@ const About = () => {
           </p>
 
           <h3 className="heading-tertiary u-margin-bottom-small">
-            Get away for a while 
+            Get away for a while
           </h3>
           <p className="paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores

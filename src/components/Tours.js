@@ -1,12 +1,13 @@
 import React from "react";
 import LargeCard from "./LargeCard";
 import Button from "./Button";
+import Heading from "./Heading";
 
 const Tours = () => {
   return (
     <section className="section-tours" id="section-tours">
       <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">Most popular tours</h2>
+        <Heading text="Most popular tours" />
       </div>
 
       <div className="row">

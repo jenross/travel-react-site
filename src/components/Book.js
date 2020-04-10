@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import Heading from "./Heading";
 
 const Book = () => {
   return (
@@ -9,7 +10,7 @@ const Book = () => {
           <div className="book__form">
             <form action="#" className="form">
               <div className="u-margin-bottom-medium">
-                <h2 className="heading-secondary">Start booking now</h2>
+                <Heading text="Start booking now" />
               </div>
 
               <div className="form__group">
