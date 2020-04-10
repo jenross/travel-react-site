@@ -6,6 +6,7 @@ import nat1 from "./../images/nat-1.jpg";
 import nat2 from "./../images/nat-2.jpg";
 import nat3 from "./../images/nat-3.jpg";
 import Heading from "./Heading";
+import HeadingTertiary from "./HeadingTertiary";
 
 const About = () => {
   return (
@@ -16,18 +17,15 @@ const About = () => {
 
       <div className="row">
         <div className="col-1-of-2">
-          <h3 className="heading-tertiary u-margin-bottom-small">
-            You're going to fall in love with nature
-          </h3>
+          <HeadingTertiary text="You're going to fall in love with nature" />
+
           <p className="paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
             ipsum sapiente aspernatur libero repellat quis consequatur ducimus
             quam nisi exercitationem omnis earum qui.
           </p>
+          <HeadingTertiary text="Get away for a while" />
 
-          <h3 className="heading-tertiary u-margin-bottom-small">
-            Get away for a while
-          </h3>
           <p className="paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
             nulla deserunt voluptatum nam.

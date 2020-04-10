@@ -4,6 +4,7 @@ import bgvideowebm from "./../images/video.webm";
 import nat8 from "./../images/nat-8.jpg";
 import nat9 from "./../images/nat-9.jpg";
 import Heading from "./Heading";
+import HeadingTertiary from "./HeadingTertiary";
 
 const Stories = () => {
   return (
@@ -27,9 +28,8 @@ const Stories = () => {
             <figcaption className="story__caption">Mary Smith</figcaption>
           </figure>
           <div className="story__text">
-            <h3 className="heading-tertiary u-margin-bottom-small">
-              I had the best week ever with my family
-            </h3>
+            <HeadingTertiary text="I had the best week ever with my family" />
+
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
               ipsum sapiente aspernatur libero repellat quis consequatur ducimus
@@ -48,9 +48,8 @@ const Stories = () => {
             <figcaption className="story__caption">Jack Wilson</figcaption>
           </figure>
           <div className="story__text">
-            <h3 className="heading-tertiary u-margin-bottom-small">
-              WOW! This getaway was exactly what I needed
-            </h3>
+            <HeadingTertiary text="WOW! This getaway was exactly what I needed" />
+
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
               ipsum sapiente aspernatur libero repellat quis consequatur ducimus
