@@ -7,6 +7,7 @@ import nat2 from "./../images/nat-2.jpg";
 import nat3 from "./../images/nat-3.jpg";
 import Heading from "./Heading";
 import HeadingTertiary from "./HeadingTertiary";
+import PhotoComposition from "./PhotoComposition";
 
 const About = () => {
   return (
@@ -37,6 +38,26 @@ const About = () => {
         </div>
         <div className="col-1-of-2">
           <div className="composition">
+            <PhotoComposition
+              img={`${nat1}`}
+              imglg={`${nat1lg}`}
+              alt="Photo 1"
+              num="p1"
+            />
+            <PhotoComposition
+              img={`${nat2}`}
+              imglg={`${nat2lg}`}
+              alt="Photo 2"
+              num="p2"
+            />
+            <PhotoComposition
+              img={`${nat3}`}
+              imglg={`${nat3lg}`}
+              alt="Photo 3"
+              num="p3"
+            />
+          </div>
+          {/* 
             <img
               srcSet={`${nat1} 300w, ${nat1lg} 1000w`}
               sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
@@ -60,7 +81,7 @@ const About = () => {
               className="composition__photo composition__photo--p3"
               src={nat3lg}
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
