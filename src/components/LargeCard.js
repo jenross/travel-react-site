@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Button from "./Button";
 
 export default function LargeCard({ num, heading, description, price }) {
   return (
@@ -27,9 +28,7 @@ export default function LargeCard({ num, heading, description, price }) {
               <p className="card__price-only">Only</p>
               <p className="card__price-value">{price}</p>
             </div>
-            <a href="#popup" className="btn btn--white">
-              Book now!
-            </a>
+            <Button link="#popup" color="white" text="Book now!" />
           </div>
         </div>
       </div>
@@ -41,5 +40,5 @@ LargeCard.propTypes = {
   num: PropTypes.number.isRequired,
   heading: PropTypes.string.isRequired,
   description: PropTypes.array.isRequired,
-  price: PropTypes.string.isRequired
+  price: PropTypes.string.isRequired,
 };
