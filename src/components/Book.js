@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const Book = () => {
   return (
@@ -66,7 +67,7 @@ const Book = () => {
               </div>
 
               <div className="form__group">
-                <button className="btn btn--green">Next step &rarr;</button>
+                <Button link="#" color="green" text="Next step &rarr;" />
               </div>
             </form>
           </div>

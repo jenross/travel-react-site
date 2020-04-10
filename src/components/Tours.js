@@ -1,5 +1,6 @@
 import React from "react";
 import LargeCard from "./LargeCard";
+import Button from "./Button";
 
 const Tours = () => {
   return (
@@ -17,7 +18,7 @@ const Tours = () => {
             "Up to 30 people",
             "2 tour guides",
             "Sleep in cozy hotels",
-            "Difficulty: easy"
+            "Difficulty: easy",
           ]}
           price="$297"
         />
@@ -30,7 +31,7 @@ const Tours = () => {
             "Up to 40 people",
             "5 tour guides",
             "Sleep in provided tents",
-            "Difficulty: medium"
+            "Difficulty: medium",
           ]}
           price="$497"
         />
@@ -43,16 +44,14 @@ const Tours = () => {
             "Up to 15 people",
             "3 tour guides",
             "Sleep in igloos",
-            "Difficulty: hard"
+            "Difficulty: hard",
           ]}
           price="$897"
         />
       </div>
 
       <div className="u-center-text u-margin-top-huge">
-        <a href="#" className="btn btn--green">
-          Discover all tours
-        </a>
+        <Button link="#" color="green" text="Discover all tours" />
       </div>
     </section>
   );

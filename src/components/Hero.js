@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./../images/logo-white.png";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -15,9 +16,11 @@ const Hero = () => {
             <span className="heading-primary--sub">of a lifetime</span>
           </h1>
 
-          <a href="#section-tours" className="btn btn--white btn--animated">
-            Discover our tours
-          </a>
+          <Button
+            link="#section-tours"
+            color="white"
+            text="Discover our tours"
+          />
         </div>
       </header>
     </React.Fragment>
