@@ -4,7 +4,7 @@ import bgvideowebm from "./../images/video.webm";
 import nat8 from "./../images/nat-8.jpg";
 import nat9 from "./../images/nat-9.jpg";
 import Heading from "./Heading";
-import HeadingTertiary from "./HeadingTertiary";
+import Story from "./Story";
 
 const Stories = () => {
   return (
@@ -20,47 +20,18 @@ const Stories = () => {
       <div className="u-center-text u-margin-bottom-big">
         <Heading text="An experience you'll never forget" />
       </div>
-
-      <div className="row">
-        <div className="story">
-          <figure className="story__shape">
-            <img src={nat8} alt="Person on a tour" className="story__img" />
-            <figcaption className="story__caption">Mary Smith</figcaption>
-          </figure>
-          <div className="story__text">
-            <HeadingTertiary text="I had the best week ever with my family" />
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-              ipsum sapiente aspernatur libero repellat quis consequatur ducimus
-              quam nisi exercitationem omnis earum qui. Aperiam, ipsum sapiente
-              aspernatur libero repellat quis consequatur ducimus quam nisi
-              exercitationem omnis earum qui.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div className="row">
-        <div className="story">
-          <figure className="story__shape">
-            <img src={nat9} alt="Person on a tour" className="story__img" />
-            <figcaption className="story__caption">Jack Wilson</figcaption>
-          </figure>
-          <div className="story__text">
-            <HeadingTertiary text="WOW! This getaway was exactly what I needed" />
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-              ipsum sapiente aspernatur libero repellat quis consequatur ducimus
-              quam nisi exercitationem omnis earum qui. Aperiam, ipsum sapiente
-              aspernatur libero repellat quis consequatur ducimus quam nisi
-              exercitationem omnis earum qui.
-            </p>
-          </div>
-        </div>
-      </div>
-
+      <Story
+        img={`${nat8}`}
+        caption="Mary Smith"
+        heading="I had the best week ever with my family"
+        text="Irony shabby chic crucifix, fingerstache direct trade marfa freegan coloring book woke selfies taiyaki everyday carry tattooed. Franzen chia vinyl, etsy hella gentrify photo booth sriracha pinterest."
+      />
+      <Story
+        img={`${nat9}`}
+        caption="Jack Wilson"
+        heading="WOW! This getaway was exactly what I needed"
+        text="Selfies tattooed af, raw denim banjo waistcoat occupy chillwave street art tofu. 90's slow-carb skateboard tumeric cronut kale chips four dollar toast, mustache synth kombucha edison bulb squid forage."
+      />
       <div className="u-center-text u-margin-top-huge">
         <a href="#" className="btn-text">
           Read all stories &rarr;
