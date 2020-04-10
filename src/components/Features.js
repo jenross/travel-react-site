@@ -1,60 +1,29 @@
 import React from "react";
-
+import SmallCard from "./SmallCard";
 const Features = () => {
   return (
     <section className="section-features">
       <div className="row">
-        <div className="col-1-of-4">
-          <div className="feature-box">
-            <i className="feature-box__icon icon-basic-world"></i>
-            <h3 className="heading-tertiary u-margin-bottom-small">
-              Explore the world
-            </h3>
-            <p className="feature-box__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-              ipsum sapiente aspernatur.
-            </p>
-          </div>
-        </div>
-
-        <div className="col-1-of-4">
-          <div className="feature-box">
-            <i className="feature-box__icon icon-basic-compass"></i>
-            <h3 className="heading-tertiary u-margin-bottom-small">
-              Meet nature
-            </h3>
-            <p className="feature-box__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-              ipsum sapiente aspernatur.
-            </p>
-          </div>
-        </div>
-
-        <div className="col-1-of-4">
-          <div className="feature-box">
-            <i className="feature-box__icon icon-basic-map"></i>
-            <h3 className="heading-tertiary u-margin-bottom-small">
-              Find your way
-            </h3>
-            <p className="feature-box__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-              ipsum sapiente aspernatur.
-            </p>
-          </div>
-        </div>
-
-        <div className="col-1-of-4">
-          <div className="feature-box">
-            <i className="feature-box__icon icon-basic-heart"></i>
-            <h3 className="heading-tertiary u-margin-bottom-small">
-              Live a healthier life
-            </h3>
-            <p className="feature-box__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-              ipsum sapiente aspernatur.
-            </p>
-          </div>
-        </div>
+        <SmallCard
+          theme="world"
+          heading="Explore the world"
+          description="I'm baby twee shabby chic subway tile squid. Man braid church-key portland photo booth trust fund seitan chartreuse."
+        />
+        <SmallCard
+          theme="compass"
+          heading="Meet nature"
+          description="Portland williamsburg irony meditation aesthetic pug franzen 8-bit. Butcher blue bottle hot chicken church-key green."
+        />
+        <SmallCard
+          theme="map"
+          heading="Find your way"
+          description="Austin palo santo flexitarian pitchfork raclette kitsch YOLO keytar letterpress banjo fixie affogato knausgaard."
+        />
+        <SmallCard
+          theme="heart"
+          heading="Live a healthier life"
+          description="Heirloom trust fund offal, organic humblebrag fam roof party venmo artisan tumeric. Banh mi butcher small batch swag."
+        />
       </div>
     </section>
   );
