@@ -1,6 +1,9 @@
 import React from "react";
 import nat8 from "./../images/nat-8.jpg";
 import nat9 from "./../images/nat-9.jpg";
+import Heading from "./Heading";
+import HeadingTertiary from "./HeadingTertiary";
+import Button from "./Button";
 
 const Popup = () => {
   return (
@@ -14,12 +17,9 @@ const Popup = () => {
           <a href="#section-tours" className="popup__close">
             &times;
           </a>
-          <h2 className="heading-secondary u-margin-bottom-small">
-            Start booking now
-          </h2>
-          <h3 className="heading-tertiary u-margin-bottom-small">
-            Important &ndash; Please read these terms before booking
-          </h3>
+          <Heading text="Start booking now" />
+
+          <HeadingTertiary text="Important &ndash; Please read these terms before booking" />
           <p className="popup__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed sed
@@ -36,9 +36,7 @@ const Popup = () => {
             donec. Sit amet facilisis magna etiam. Imperdiet sed euismod nisi
             porta.
           </p>
-          <a href="#" className="btn btn--green">
-            Book now
-          </a>
+          <Button link="#" color="green" text="Book now" />
         </div>
       </div>
     </div>

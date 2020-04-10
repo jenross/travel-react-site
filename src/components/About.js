@@ -21,15 +21,16 @@ const About = () => {
           <HeadingTertiary text="You're going to fall in love with nature" />
 
           <p className="paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-            ipsum sapiente aspernatur libero repellat quis consequatur ducimus
-            quam nisi exercitationem omnis earum qui.
+            Mixtape taiyaki gluten-free deep v. Cronut quinoa master cleanse
+            chambray, mixtape deep v cray stumptown skateboard. Green juice jean
+            shorts locavore butcher leggings.
           </p>
           <HeadingTertiary text="Get away for a while" />
 
           <p className="paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-            nulla deserunt voluptatum nam.
+            Cray vegan brooklyn post-ironic. Drinking vinegar PBR&B raw denim,
+            tofu pug bicycle rights shabby chic swag squid flexitarian air
+            plant.
           </p>
 
           <a href="#" className="btn-text">
@@ -57,31 +58,6 @@ const About = () => {
               num="p3"
             />
           </div>
-          {/* 
-            <img
-              srcSet={`${nat1} 300w, ${nat1lg} 1000w`}
-              sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-              alt="Photo 1"
-              className="composition__photo composition__photo--p1"
-              src={nat1lg}
-            />
-
-            <img
-              srcSet={`${nat2} 300w, ${nat2lg} 1000w`}
-              sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-              alt="Photo 2"
-              className="composition__photo composition__photo--p2"
-              src={nat2lg}
-            />
-
-            <img
-              srcSet={`${nat3} 300w, ${nat3lg} 1000w`}
-              sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-              alt="Photo 3"
-              className="composition__photo composition__photo--p3"
-              src={nat3lg}
-            />
-          </div> */}
         </div>
       </div>
     </section>
