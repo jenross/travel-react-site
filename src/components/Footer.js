@@ -1,4 +1,5 @@
 import React from "react";
+import Column from "./Column";
 import logogreensm from "./../images/logo-green-small-1x.png";
 import logogreensm2 from "./../images/logo-green-small-2x.png";
 import logogreen from "./../images/logo-green-1x.png";
@@ -21,7 +22,7 @@ const Footer = () => {
         </picture>
       </div>
       <div className="row">
-        <div className="col-1-of-2">
+        <Column size="2">
           <div className="footer__navigation">
             <ul className="footer__list">
               <li className="footer__item">
@@ -51,8 +52,8 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-        </div>
-        <div className="col-1-of-2">
+        </Column>
+        <Column size="2">
           <p className="footer__copyright">
             Built by{" "}
             <a
@@ -63,15 +64,15 @@ const Footer = () => {
               Jennifer Ross
             </a>{" "}
             &amp; Designed by{" "}
-              <a
-                href="https://www.udemy.com/user/jonasschmedtmann/"
-                target="_blank"
-                className="footer__link"
-              >
-                Jonas Schmedtmann
-              </a>{" "}
+            <a
+              href="https://www.udemy.com/user/jonasschmedtmann/"
+              target="_blank"
+              className="footer__link"
+            >
+              Jonas Schmedtmann
+            </a>{" "}
           </p>
-        </div>
+        </Column>
       </div>
     </footer>
   );

@@ -8,6 +8,7 @@ import nat3 from "./../images/nat-3.jpg";
 import Heading from "./Heading";
 import HeadingTertiary from "./HeadingTertiary";
 import PhotoComposition from "./PhotoComposition";
+import Column from "./Column";
 
 const About = () => {
   return (
@@ -17,7 +18,7 @@ const About = () => {
       </div>
 
       <div className="row">
-        <div className="col-1-of-2">
+        <Column size="2">
           <HeadingTertiary text="You're going to fall in love with nature" />
 
           <p className="paragraph">
@@ -36,8 +37,8 @@ const About = () => {
           <a href="#" className="btn-text">
             Learn more &rarr;
           </a>
-        </div>
-        <div className="col-1-of-2">
+        </Column>
+        <Column size="2">
           <div className="composition">
             <PhotoComposition
               img={`${nat1}`}
@@ -58,7 +59,7 @@ const About = () => {
               num="p3"
             />
           </div>
-        </div>
+        </Column>
       </div>
     </section>
   );

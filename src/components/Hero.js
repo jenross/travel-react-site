@@ -20,6 +20,7 @@ const Hero = () => {
             link="#section-tours"
             color="white"
             text="Discover our tours"
+            animated="btn--animated"
           />
         </div>
       </header>

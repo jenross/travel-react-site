@@ -38,7 +38,7 @@ export default function LargeCard({ num, heading, description, price }) {
 }
 
 LargeCard.propTypes = {
-  num: PropTypes.number.isRequired,
+  num: PropTypes.string.isRequired,
   heading: PropTypes.string.isRequired,
   description: PropTypes.array.isRequired,
   price: PropTypes.string.isRequired,

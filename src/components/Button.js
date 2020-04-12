@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export default function Button({ link, color, text }) {
+export default function Button({ link, color, animated, text }) {
   return (
-    <a href={`${link}`} className={`btn btn--${color}`}>
+    <a href={`${link}`} className={`btn btn--${color} ${animated}`}>
       {text}
     </a>
   );
