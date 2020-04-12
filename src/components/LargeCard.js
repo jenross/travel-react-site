@@ -1,10 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Button from "./Button";
+import Column from "./Column";
 
 export default function LargeCard({ num, heading, description, price }) {
   return (
-    <div className="col-1-of-3">
+    <Column size="3">
       <div className="card">
         <div className="card__side card__side--front">
           <div className={`card__picture card__picture--${num}`}>&nbsp;</div>
@@ -32,7 +33,7 @@ export default function LargeCard({ num, heading, description, price }) {
           </div>
         </div>
       </div>
-    </div>
+    </Column>
   );
 }
 

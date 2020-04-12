@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "@reach/router";
 
 const Navigation = () => {
   return (
@@ -18,29 +19,29 @@ const Navigation = () => {
       <nav className="navigation__nav">
         <ul className="navigation__list">
           <li className="navigation__item">
-            <a href="#" className="navigation__link">
+            <Link className="navigation__link" to="/">
               <span>01</span>About Natous
-            </a>
+            </Link>
           </li>
           <li className="navigation__item">
-            <a href="#" className="navigation__link">
-              <span>02</span>Your benfits
-            </a>
+            <Link className="navigation__link" to="/">
+              <span>02</span>Your benefits
+            </Link>
           </li>
           <li className="navigation__item">
-            <a href="#" className="navigation__link">
+            <Link className="navigation__link" to="/">
               <span>03</span>Popular tours
-            </a>
+            </Link>
           </li>
           <li className="navigation__item">
-            <a href="#" className="navigation__link">
+            <Link className="navigation__link" to="/">
               <span>04</span>Stories
-            </a>
+            </Link>
           </li>
           <li className="navigation__item">
-            <a href="#" className="navigation__link">
+            <Link className="navigation__link" to="/">
               <span>05</span>Book now
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
